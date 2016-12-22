@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif; background-color:#000000;
+}
+a {
+color:#FFFFFF;
+	outline: none;
+	text-decoration: underline;
+}
+A:link {
+	COLOR: #FF0000; TEXT-DECORATION: none
+    }
+A:visited {
+	COLOR: #FF0000; TEXT-DECORATION: none
+    }
+A:hover {
+	COLOR: #878787; TEXT-DECORATION: none
+    }
+A:active {
+	COLOR: #FF0000; TEXT-DECORATION: none
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	background:url("../images/bg.jpg");
+	min-height:1600px;
+	background-position:top center;
+	height:100%;
+	background-repeat:no-repeat;
+	}
+	
+	
+#container {
+width:900px;
+position:relative;
+margin:0 auto;
+}
+#menu {
+position:absolute;
+top:620px;
+left:25px;
+}
+
+#serv {
+position:absolute;
+top:85px;
+left:700px;
+}
+
+#sc {
+position:absolute;
+top:570px;
+left:810px;
+}
+
+#contact {
+position:absolute;
+left:842px;
+top:1028px;
+color:#18ffdb;
+text-shadow:#000000 1px 1px;
+}
+
+#content {
+position:absolute;
+top:750px;
+text-align:left;
+color:#834e24;
+font-size:12px;
+width:570px;
+text-shadow:#FF6600 0px 0px; 
+left:200px;
+}
+
+#donate {width: 224px; margin: 0 auto; font-size: 12px;  height: 270px; position:absolute; top:1100px; left:-70px;}
+#donate span {font-size: 17px;}
+#bar {background: url("../images/bar.png") 0 0 no-repeat; width: 224px; height: 13px; text-align: left; margin-bottom: 20px;}
+#progress {background: url("../images/progress.png"); background-repeat:repeat-x; height:11px; position:absolute; top:55px;}
+
+
+
+#mycustomscroll { position: relative; margin: 0.3em auto; height:630px;}
+.scrollgeneric { line-height: 1px; font-size: 1px; position: absolute; top: 0; left: 0; }
+.vscrollerbase, .vscrollerbar { width: 24px;}
+.hscrollerbase, .hscrollerbar { height: 24px; }
+.vscrollerbar, .hscrollerbar {padding: 50px 50 17px; z-index: 2; }
+.vscrollerbarbeg { background:url("../images/polz.png") no-repeat 0 0; height:108px !important; width: 24px;}
+.vscrollerbase, .hscrollerbase {background:url("../images/s-bg.png"); height:650px 0;}
+
+
+#mycustomscroll_vscrollerbar { height:103px !important}
